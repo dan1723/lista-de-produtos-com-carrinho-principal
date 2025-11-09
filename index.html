@@ -1,118 +1,180 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product list with cart</title>
-</head>
-<body>
-  <!-- Container principal -->
-  <main class="container"> 
-    <h1 class="titulo">Desserts</h1>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-    <section class="produtos"> <!-- Seção de produtos -->
-      <ul class="lista-produto"> <!-- Lista de produtos -->
-        <li> <!-- produto 01 -->
-          <article>
-            <img src="./assets/images/image-waffle-desktop.jpg" alt="Waffle">
-            <button>Add to Cart</button>
-            <p class="nome">Waffle</p>
-            <p class="titulo-produto">Waffle with Berries</p>
-            <p class="preco-produto">$6.50</p>
-          </article>
-        </li>
-        <li> <!-- produto 02 -->
-          <article>
-            <img src="./assets/images/image-creme-brulee-desktop.jpg" alt="Creme-brulee">
-            <button>Add to Cart</button>
-            <p class="nome">Creme Brûlée</p>
-            <p class="titulo-produto">Vanilla Bean Crème Brûlée</p>
-            <p class="preco-produto">$7.00</p>
-          </article>
-        </li>
-        <li> <!-- produto 03 -->
-          <article>
-            <img src="./assets/images/image-macaron-desktop.jpg" alt="Macaron">
-            <button>Add to Cart</button>
-            <p class="nome">Macaron</p>
-            <p class="titulo-produto">Macaron Mix of Five</p>
-            <p class="preco-produto">$8.00</p>
-          </article>
-        </li>
-        <li> <!-- produto 04 -->
-          <article>
-            <img src="./assets/images/image-tiramisu-desktop.jpg" alt="Tiramisu">
-            <button>Add to Cart</button>
-            <p class="nome">Tiramisu</p>
-            <p class="titulo-produto">Classic Tiramisu</p>
-            <p class="preco-produto">$5.50</p>
-          </article>
-        </li>
-        <li> <!-- produto 05 -->
-          <article>
-            <img src="./assets/images/image-baklava-desktop.jpg" alt="Baklava">
-            <button>Add to Cart</button>
-            <p class="nome">Baklava</p>
-            <p class="titulo-produto">Pistachio Baklava</p>
-            <p class="preco-produto">$4.00</p>
-          </article>
-        </li>
-        <li> <!-- produto 06 -->
-          <article>
-            <img src="./assets/images/image-meringue-desktop.jpg" alt="Pie">
-            <button>Add to Cart</button>
-            <p class="nome">Pie</p>
-            <p class="titulo-produto">Lemon Meringue Pie</p>
-            <p class="preco-produto">$5.00</p>
-          </article>
-        </li>
-        <li> <!-- produto 07 -->
-          <article>
-            <img src="./assets/images/image-cake-desktop.jpg" alt="Cake">
-            <button>Add to Cart</button>
-            <p class="nome">Cake</p>
-            <p class="titulo-produto">red Velvet Cake</p>
-            <p class="preco-produto">$4.50</p>
-          </article>
-        </li>
-        <li> <!-- produto 08 -->
-          <article>
-            <img src="./assets/images/image-brownie-desktop.jpg" alt="Brownie">
-            <button>Add to Cart</button>
-            <p class="nome">Brownie</p>
-            <p class="titulo-produto">Salted Caramel Brownie</p>
-            <p class="preco-produto">$5.50</p>
-          </article>
-        </li>
-        <li> <!-- produto 09 -->
-          <article>
-            <img src="./assets/images/image-panna-cotta-desktop.jpg" alt="Panna">
-            <button>Add to Cart</button>
-            <p class="nome">Panna</p>
-            <p class="titulo-produto">Vanilla Panna Cotta</p>
-            <p class="preco-produto">$6.50</p>
-          </article>
-        </li>
-      </ul>
-    </section>
+    <title>Frontend Mentor | Product list with cart</title>
+  </head>
+  <body>
+    <!-- Container principal -->
+    <main class="container">
+      <h1 class="titulo">Desserts</h1>
 
-    
-    <section> <!-- Seção do carrinho -->
-      <h2>Your Cart (<!-- Quantity -->)</h2>
-      
-    </section>
+      <section class="produtos">
+        <!-- Seção de produtos -->
+        <ul class="lista-produto">
+          <!-- Lista de produtos -->
+          <li>
+            <!-- produto 01 -->
+            <article>
+              <img
+                src="./assets/images/image-waffle-desktop.jpg"
+                alt="Waffle"
+              />
+              <button>Add to Cart</button>
+              <p class="nome">Waffle</p>
+              <p class="titulo-produto">Waffle with Berries</p>
+              <p class="preco-produto">$6.50</p>
+            </article>
+          </li>
+          <li>
+            <!-- produto 02 -->
+            <article>
+              <img
+                src="./assets/images/image-creme-brulee-desktop.jpg"
+                alt="Creme-brulee"
+              />
+              <button>Add to Cart</button>
+              <p class="nome">Creme Brûlée</p>
+              <p class="titulo-produto">Vanilla Bean Crème Brûlée</p>
+              <p class="preco-produto">$7.00</p>
+            </article>
+          </li>
+          <li>
+            <!-- produto 03 -->
+            <article>
+              <img
+                src="./assets/images/image-macaron-desktop.jpg"
+                alt="Macaron"
+              />
+              <button>Add to Cart</button>
+              <p class="nome">Macaron</p>
+              <p class="titulo-produto">Macaron Mix of Five</p>
+              <p class="preco-produto">$8.00</p>
+            </article>
+          </li>
+          <li>
+            <!-- produto 04 -->
+            <article>
+              <img
+                src="./assets/images/image-tiramisu-desktop.jpg"
+                alt="Tiramisu"
+              />
+              <button>Add to Cart</button>
+              <p class="nome">Tiramisu</p>
+              <p class="titulo-produto">Classic Tiramisu</p>
+              <p class="preco-produto">$5.50</p>
+            </article>
+          </li>
+          <li>
+            <!-- produto 05 -->
+            <article>
+              <img
+                src="./assets/images/image-baklava-desktop.jpg"
+                alt="Baklava"
+              />
+              <button>Add to Cart</button>
+              <p class="nome">Baklava</p>
+              <p class="titulo-produto">Pistachio Baklava</p>
+              <p class="preco-produto">$4.00</p>
+            </article>
+          </li>
+          <li>
+            <!-- produto 06 -->
+            <article>
+              <img src="./assets/images/image-meringue-desktop.jpg" alt="Pie" />
+              <button>Add to Cart</button>
+              <p class="nome">Pie</p>
+              <p class="titulo-produto">Lemon Meringue Pie</p>
+              <p class="preco-produto">$5.00</p>
+            </article>
+          </li>
+          <li>
+            <!-- produto 07 -->
+            <article>
+              <img src="./assets/images/image-cake-desktop.jpg" alt="Cake" />
+              <button>Add to Cart</button>
+              <p class="nome">Cake</p>
+              <p class="titulo-produto">red Velvet Cake</p>
+              <p class="preco-produto">$4.50</p>
+            </article>
+          </li>
+          <li>
+            <!-- produto 08 -->
+            <article>
+              <img
+                src="./assets/images/image-brownie-desktop.jpg"
+                alt="Brownie"
+              />
+              <button>Add to Cart</button>
+              <p class="nome">Brownie</p>
+              <p class="titulo-produto">Salted Caramel Brownie</p>
+              <p class="preco-produto">$5.50</p>
+            </article>
+          </li>
+          <li>
+            <!-- produto 09 -->
+            <article>
+              <img
+                src="./assets/images/image-panna-cotta-desktop.jpg"
+                alt="Panna"
+              />
+              <button>Add to Cart</button>
+              <p class="nome">Panna</p>
+              <p class="titulo-produto">Vanilla Panna Cotta</p>
+              <p class="preco-produto">$6.50</p>
+            </article>
+          </li>
+        </ul>
+      </section>
 
-  </main>
+      <section>
+        <!-- Seção do carrinho -->
+        <h2>Your Cart (<!-- Quantity -->)</h2>
+        <ul>
+          <li>
+            <p>Classic Tiramisu</p>
+            <p>1x</p>
+            <p>@$5.50</p>
+            <p>$5.50</p>
+            <img src="./assets/images/icon-remove-item.svg" alt="icon-remove" />
+          </li>
+          <li>
+            <p>Vanilla Bean Crème Brûlée</p>
+            <p>4x</p>
+            <p>@$7.00</p>
+            <p>$28.00</p>
+            <img src="./assets/images/icon-remove-item.svg" alt="icon-remove" />
+          </li>
+          <li>
+            <p>Vanilla Panna Cotta</p>
+            <p>2x</p>
+            <p>@$6.50</p>
+            <p>$13.50</p>
+            <img src="./assets/images/icon-remove-item.svg" alt="icon-remove" />
+          </li>
+        </ul>
 
-  
+        <div>
+          <p>Order Total</p>
+          <p>$46.50</p>
+          <img
+            src="./assets/images/icon-carbon-neutral.svg"
+            alt="icon-carbon"
+          />
+          <p>This is a <span>carbon neutral</span> delivery</p>
+        </div>
 
-
-  
-  Your added items will appear here
-
-
-</body>
+        <button>Confirm Order</button>
+      </section>
+    </main>
+  </body>
 </html>
